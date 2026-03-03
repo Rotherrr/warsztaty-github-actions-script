@@ -22,3 +22,4 @@ jobs:
           cat temp.file
           bash ./start.sh "${{ github.event.inputs.miasto }}" "${{ secrets.API_KEY }}" >> $GITHUB_STEP_SUMMARY
 
+# To jest moja edycja 
